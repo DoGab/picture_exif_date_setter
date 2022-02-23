@@ -25,7 +25,7 @@ Script to print and set datetimeoriginal EXIF data on pictures in a folder from 
         $ bash picture_exif_date_setter.sh -o -p test_pictures/
 
         # Set datetimeoriginal for pictures in folder test_pictures and increment each picture by 1 minute
-        $ bash picture_exif_date_setter.sh -p test_pictures/ -d 2022:02:20 15:10:00
+        $ bash picture_exif_date_setter.sh -p test_pictures/ -d "2022:02:20 15:10:00"
 
         # Set datetimeoriginal for pictures in folder test_pictures from the filename in format 'YYYY-MM-DD HH.MM.SS.jpg'
         $ bash picture_exif_date_setter.sh -p test_pictures/ -f
