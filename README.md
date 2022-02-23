@@ -15,10 +15,10 @@ Script to print and set datetimeoriginal EXIF data on pictures in a folder from 
 
     Usage: picture_exif_date_setter.sh
         [ -d | --datetime <datetime> ]   Datetime to set for the pictures. Format 'YYYY:MM:DD HH:MM:SS'
-	    [ -f | --datefromfilename ]      Read the date from the filename instead of -d parameter. Filename format 'YYYY-MM-DD HH.MM.SS.jpg'
+        [ -f | --datefromfilename ]      Read the date from the filename instead of -d parameter. Filename format 'YYYY-MM-DD HH.MM.SS.jpg'
         [ -h | --help ]                  Display help message
-	    [ -o | --printonly ]             Print only but do not modify files
-	    [ -p | --path <directory> ]      Directory where to process pictures
+        [ -o | --printonly ]             Print only but do not modify files
+        [ -p | --path <directory> ]      Directory where to process pictures
 
     Examples:
         # Print filenames and the datetimeoriginal
